@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+.container {
+    width: 80%;
+    min-height: 100vh;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 100px 50px;
+}
+
+.container h1 {
+    background-color: aquamarine;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+ button {
+    background-color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 13px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px;
+    transition: background-color 0.5s;
+ }
+
+ button:hover {
+    background-color: blueviolet;
+ }
+.paras {
+    background-color: beige;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#numOfWords {
+    background-color: beige;
+    padding: 10px;
+    border: 1px solid rgb(177, 102, 102);
+    width: 50%;
+    margin-top: 20px;
+    outline: none;
+    font: 100 1.3rem sans-serif;
+}
+
+.paras {
+    background-color: bisque;
+    color:rgb(177, 102, 102);
+    font-family: Georgia;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 3px;
+}
